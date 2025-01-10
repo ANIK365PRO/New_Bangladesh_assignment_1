@@ -9,6 +9,57 @@
   background: rgb(245, 245, 245);
 }
 /* primary style start  */
+.heading_h1 {
+  /* Idea , innovation , vision and challenges in New Bangladesh. */
+  max-width: 622px;
+}
+.heading_h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.heading_h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.heading_h4 {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.heading_h5 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.primary_btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  padding: 17px 0;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
 /* primary style start end */
 
 body {
@@ -46,5 +97,31 @@ body nav ul {
   text-align: center;
   align-items: center;
   color: rgb(0, 106, 80);
+}
+
+.banner {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  gap: 64;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.banner_content {
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.banner_content .btn_size {
+  max-width: 270px;
 }
 /* header section style end */
