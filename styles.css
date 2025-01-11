@@ -405,3 +405,20 @@ body nav ul {
   border-radius: 0 10px 10px 0;
 }
 /* end Subscribe Newslater section  */
+
+/*start footer section  */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.footer_img {
+  display: flex;
+  gap: 50px;
+}
+/*end footer section  */
