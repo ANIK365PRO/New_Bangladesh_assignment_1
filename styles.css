@@ -348,3 +348,57 @@ body nav ul {
   font-weight: 400;
   line-height: 24px;
 }
+
+/* start Subscribe Newslater section */
+.newsletter_container {
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 64px;
+  padding: 80px 100px 80px 100px;
+  margin: 100px 0px;
+  /* border: 2px solid rebeccapurple; */
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.newsletter_container div {
+  max-width: 750px;
+  min-height: 235px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  padding: 0px;
+  margin: 0px 64px;
+}
+.newsletter_container div p {
+  text-align: center;
+}
+.newsletter_container div form {
+  display: flex;
+  flex-direction: row;
+}
+.ewslettner_container_input_email {
+  width: 600px;
+  min-height: 55px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 18px 40px 18px 40px;
+  margin: 0px 0px;
+}
+.email_btn {
+  border-radius: 0 10px 10px 0;
+}
+/* end Subscribe Newslater section  */
